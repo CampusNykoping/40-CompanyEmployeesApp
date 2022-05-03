@@ -40,4 +40,4 @@ public static class ServiceExtensions
         services.AddDbContext<RepositoryContext>(opts =>
             opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
 }
-}
+
